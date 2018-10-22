@@ -1,5 +1,5 @@
 {
-  "name": "Selectable-Table-Plugin",
+  "name": "selectable-table-plugin",
   "version": "0.0.1",
   "description": "Plugin for Mobius1/Selectable that enables fast column / row selection.",
   "main": "selectable.table.min.js",
@@ -15,7 +15,7 @@
     "select",
     "drag",
     "tables",
-    "html table",
+    "html table"
   ],
   "author": "Karl Saunders",
   "license": "MIT",

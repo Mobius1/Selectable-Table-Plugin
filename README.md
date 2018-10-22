@@ -1,7 +1,31 @@
  Plugin for [Mobius1/Selectable](https://github.com/Mobius1/Selectable) that enables fast column and / or row selection / deselection.
 
  # [Demo](https://s.codepen.io/Mobius1/debug/XxBQOa/yokZEWDmzaeA)
- 
+
+---
+
+## Install
+
+#### Bower
+```
+bower install selectable-table-plugin --save
+```
+
+#### NPM
+```
+npm install selectable-table-plugin --save
+```
+
+---
+
+
+#### CDN
+
+```
+https://unpkg.com/selectable-table-plugin@latest/selectable.table.min.js
+```
+---
+
  ### Enable Plugin
  
  Add the `[data-selectable="column"]` attribute to the required `th` cells you want to enable

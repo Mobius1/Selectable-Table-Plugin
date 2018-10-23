@@ -1,3 +1,12 @@
+# Selectable Table Plugin
+[![npm](https://img.shields.io/npm/dt/selectable-table-plugin.svg)](https://www.npmjs.com/package/selectable-table-plugin)
+[![npm version](https://badge.fury.io/js/selectable-table-plugin.svg)](https://badge.fury.io/js/selectable-table-plugin)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/Mobius1/Selectable-Table-Plugin/blob/master/LICENSE)
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/Mobius1/Selectable-Table-Plugin.svg)](http://isitmaintained.com/project/Mobius1/Selectable-Table-Plugin "Average time to resolve an issue")
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/Mobius1/Selectable-Table-Plugin.svg)](http://isitmaintained.com/project/Mobius1/Selectable-Table-Plugin "Percentage of issues still open")
+![](http://img.badgesize.io/Mobius1/Selectable-Table-Plugin/master/selectable.table.min.js)
+![](http://img.badgesize.io/Mobius1/Selectable-Table-Plugin/master/selectable.table.min.js?compression=gzip&label=gzipped)
+
  Plugin for [Mobius1/Selectable](https://github.com/Mobius1/Selectable) that enables fast column and / or row selection / deselection.
 
  # [Demo](https://s.codepen.io/Mobius1/debug/XxBQOa/yokZEWDmzaeA)
@@ -29,8 +38,11 @@ https://unpkg.com/selectable-table-plugin@latest/selectable.table.min.js
  ### Enable Plugin
  
  Add the `[data-selectable="column"]` attribute to the required `th` cells you want to enable
+
  Add the `[data-selectable="row"]` attribute to the required column cells to enable row selection
+
  Add the `[data-selectable="all"]` to a cell to enable selection / deselection of all cells.
+ 
  
   ```html
   <table>

@@ -11,7 +11,7 @@
  * Add the '[data-selectable="row"]' attribute to the first column cells to enable row selection / deselection
  * Add the '[data-selectable="all"]' to a cell to enable selection / deselection of all cells.
  *
- * Version: 0.0.2
+ * Version: 0.0.3
  *
  */
 if (window.Selectable && typeof window.Selectable === "function") {
@@ -19,9 +19,9 @@ if (window.Selectable && typeof window.Selectable === "function") {
         // version check
         const v = this.version.split(".").map(s => parseInt(s, 10));
 
-        if (v[0] < 1 && v[1] < 11) {
+        if (v[0] < 1 && v[1] < 14) {
             return console.warn(
-                "The table plugin requires Selectable v0.11.0 and above."
+                "The table plugin requires Selectable v0.14.0 and above."
             );
         }
 
@@ -97,7 +97,7 @@ if (window.Selectable && typeof window.Selectable === "function") {
                             }
 
                             if (node.selected) {
-                                this.unselect(cells);
+                                this.deselect(cells);
                                 node.selected = false;
                             } else {
                                 this.select(cells);

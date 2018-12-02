@@ -1,6 +1,6 @@
 {
   "name": "selectable-table-plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Plugin for Mobius1/Selectable that enables fast column / row selection.",
   "main": "selectable.table.min.js",
   "scripts": {

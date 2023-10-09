@@ -11,7 +11,7 @@
  * Add the '[data-selectable="row"]' attribute to the first column cells to enable row selection / deselection
  * Add the '[data-selectable="all"]' to a cell to enable selection / deselection of all cells.
  *
- * Version: 0.0.3
+ * Version: 0.0.4
  *
  */
 (() => {

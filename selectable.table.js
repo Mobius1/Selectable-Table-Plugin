@@ -112,7 +112,7 @@
                 });
 
                 // update the 'selected' attribute on the th / td cells
-                this.on("selectable.end", update);
+                this.on("end", update);
             }
         };
     }
